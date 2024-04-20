@@ -1,0 +1,77 @@
+
+body {
+	margin: 0;
+    padding: 0;
+   ! background-image: url("project pictures/page 1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;	
+	overflow: hidden; /* Prevent scrolling */
+	background-color:blue;
+
+}
+
+header {
+    background-color: #F5F5DC;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.logo1 {
+    width: 90px;
+    height: 70px;
+    margin-left: 80px;
+    !margin-top: 10px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0px auto;
+    background-color: white;
+    height: calc(100vh - 100px); /* Subtracting the height of the header */
+}
+
+.container {
+    width: 300px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin-left:20px;
+	
+}
+
+input[type="text"],
+select {
+    width: calc(100% - 30px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #1D4691;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #F15822;
+}
+
+#rightimage {
+    height: 470px;
+    width: 470px;
+    border-radius: 8px;
+	margin-right:20px;
+}

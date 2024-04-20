@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Virtual Tour</title>
+    <style>
+	header{
+			display: flex;
+			align-items: left;
+			!background-color:#1D4691;
+			background-color:#F5F5DC;
+			height:100px;
+			}
+			
+		.logo1 {
+			display: flex;
+			width: 90px;
+			height: 70px;
+			align-items: left;
+			margin-left: 80px;	
+			margin-top:10px;
+		}
+		
+		
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.8;
+            background-color: #F5EFE7;
+            margin: 0;
+            padding: 0;
+            font-size: 15px;
+            color: #0F2C59;
+			font-family: Arial, sans-serif;
+			background-color: #f0f0f0;
+			overflow: hidden; /* Prevent scrolling */
+        }
+
+        section {
+            max-width: 80%;
+            margin: 20px auto;
+            padding: 15px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            display: flex;
+			text-align: center;
+			! height: calc(100vh - /* height of your header */); /* Adjust this value accordingly */
+	}
+
+        img {
+            padding-right: 5% ;
+            width: 400px;
+            height: 100%;
+            border-radius: 8px;
+            margin-right: 60px;
+        }
+
+        .text-container {
+            flex: 1;
+
+        }
+
+        h2,
+        h3 {
+            color: #0F2C59;
+        }
+		
+		.container {
+        width: 300px;
+        margin: 5px auto;
+        padding: 15px;
+        background-color: #ffffff; /* White background */
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    input[type="text"],
+    select {
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+		
+    }
+
+    input[type="submit"] {
+        background-color: #1D4691; /* Blue submit button */
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #F15822; /* Darker blue on hover */
+    }
+	#rightimage{
+		height:470px;
+	}
+	
+	#previous{
+		position: absolute;
+		top: 20px;
+		width: 60px;
+		height: 55px;
+		margin-bottom: 10px;
+		margin-top: 10px;
+		margin-left: 10px;
+		margin-right: 10px;
+		display: flex;
+		left: 1100px;
+}
+
+	#next{
+		position: absolute;
+		top: 20px;
+		width: 60px;
+		height: 55px;
+		margin-bottom: 10px;
+		margin-top: 10px;
+		margin-left: 10px;
+		margin-right: 10px;
+		display: flex;
+		left: 1150px;
+	}
+	a:hover {
+    color: #C0C0C0;
+	transform: scale(1.05);
+}
+
+h2{
+font-family: 'AbrilFatface';
+	font-size:30px;
+}
+
+#ps {
+font-family: 'AbrilFatface';
+	font-size:18px;
+}
+    </style>
+</head>
+
+
+<body>
+        <header>
+        <a href="index.html">
+			<img src="project pictures/logo icon 4-06.png" alt="Logo" class="logo1">
+		</a>
+		</header>
+			
+			<a href="pictures.html">
+				<img src="project pictures/shm33.png" alt="Description of the image" id="previous">
+			</a>
+			
+			<a href="hotel2.html">
+				<img src="project pictures/shm-02.png" alt="Description of the image" id="next">
+			</a>
+    
+    <section>
+		<div class="container">
+    <h2>Habu temple</h2>
+   
+    <p id="ps">
+      
+	  The Temple of Habu is the most ancient of the funerary temples of Ramesses III. This temple was established by Pharaoh Ramesses III, one of the kings of the Twentieth Dynasty and its most powerful kings. He worked to protect Pharaonic Egypt in all aspects and resembles the Temple of Ramesseum to some extent.
+        
+    </p>
+</div>
+ <img src="habu.jpg" alt="jaffar mountain" id="rightimage" />
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+body {
+    background-image: url("project pictures/page 1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;	
+	overflow: hidden; /* Prevent scrolling */
+
+}
+h1 {
+    font-family: 'AbrilFatface'-Regular.ttf;
+	font-size:50px;
+	color:white;
+	position: absolute;
+	left:170px;
+	top: 225px;
+}
+
+#p1{
+	 font-family: 'AbrilFatface'-Regular.ttf;
+	font-size:38px;
+	color:white;
+	position: absolute;
+	left:190px;
+	top: 175px;
+}
+#p2{
+	font-family: 'AbrilFatface'-Regular.ttf;
+	font-size:35px;
+	color:white;
+	position: absolute;
+	left:190px;
+	top: 285px;
+}
+
+.buttons {
+
+	position: absolute;
+	left:200px;
+	top: 20px;
+	}
+	
+.rightbuttons {
+	display: flex;
+	position: absolute;
+	left:850px;
+	top: 4px;
+	}	
+
+.buttons a {
+  display: inline-block; /* Make buttons inline-block */
+  padding: 10px 15px; /* Adjust padding for desired size */
+  margin: 5px; /* Adjust margin for desired spacing */
+  font-family: 'AbrilFatface'-Regular.ttf;
+  color:white;
+  text-decoration: none; /* Remove underline */
+  background-color: null; /* Add a light background */
+  border: 1px solid #ccc; /* Add a subtle border */
+  border-radius: 5px; /* Add a slight rounded corner */
+  font-size:20px;
+  flex:none;
+  font-weight:bold; 
+}
+	
+.logo_container{
+	height: 100vh;
+    display: flex;
+	justify-content: top;
+	align-items: left;
+	margin-left: 80px;
+	margin-top:10px;
+	}
+.logo {
+	display: flex;
+	width: 90px;
+    height: 70px;
+}
+	
+a:hover {
+    color: #C0C0C0;
+}

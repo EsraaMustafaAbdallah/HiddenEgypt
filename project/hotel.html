@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hotel</title>
+    <style>
+	header{
+			display: flex;
+			align-items: left;
+			height:60px;
+		}
+		
+		.logo1 {
+			position:absolute;
+			display: flex;
+			width: 90px;
+			height: 70px;
+			align-items: left;
+			margin-left: 80px;	
+			position: absolute;
+			top: 6px;
+		}
+		
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.8;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            font-size: 15px;
+            color: #0F2C59;
+			font-family: Arial, sans-serif;
+			overflow: hidden; /* Prevent scrolling */
+        }
+
+        section {
+            max-width: 100%;
+            margin: 20px auto;
+            padding: 15px;
+            background-color: #F5F5F5;
+            border-radius: 8px;
+            box-shadow: 0 0 0px rgba(0, 0, 0, 0.1);
+            display: flex;
+			text-align: center;
+			height: calc(100vh); /* height of your header */ /* Adjust this value accordingly */
+	}
+
+        img {
+            padding-right: 5% ;
+            width: 400px;
+            height: 100%;
+            border-radius: 8px;
+            margin-right: 60px;
+        }
+
+        .text-container {
+            flex: 1;
+
+        }
+
+        h2,
+        h3 {
+            color: #0F2C59;
+        }
+		
+	
+		.container {
+			display: flex;
+			justify-content: space-between; /* Ensure the content is spread evenly */
+			width: 1200px;
+			margin: 0 auto;
+			padding: 15px;
+			background-color: #F5F5F5;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			margin-bottom:20px;
+		}
+
+    input[type="text"],
+    select {
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+		
+    }
+	.leftpart {
+		justify-content: flex-start; /* Align items to the left */
+		margin-right:20px;
+	}
+
+.rightpart {
+		justify-content: flex-end; /* Align items to the right */
+	}
+
+   
+	#leftimage{
+		
+		height:320px;
+		width:500px;
+		margin-left:50px;
+	}
+	#rightimage{
+		height:450px;
+		width:500px;
+		margin-left:20px;
+		margin-top:40px;
+	}
+	
+
+	#previous{
+		position: absolute;
+		top: 12px;
+		width: 60px;
+		height: 55px;
+		margin-bottom: 10px;
+		margin-top: 10px;
+		margin-left: 10px;
+		margin-right: 10px;
+		display: flex;
+		left: 1100px;
+}
+
+	#next{
+		position: absolute;
+		top: 12px;
+		width: 60px;
+		height: 55px;
+		margin-bottom: 10px;
+		margin-top: 10px;
+		margin-left: 10px;
+		margin-right: 10px;
+		display: flex;
+		left: 1150px;
+	}
+
+	
+	a:hover {
+    color: #C0C0C0;
+	transform: scale(1.05);
+}
+
+h2{
+font-family: 'AbrilFatface';
+	font-size:30px;
+}
+#ps{
+font-family: 'AbrilFatface';
+	font-size:18px;
+	margin-top:-20px;
+}
+    </style>
+</head>
+
+<body>
+		
+		<header>
+        <a href="index.html">
+			<img src="project pictures/logo icon 4-06.png" alt="Logo" class="logo1">
+		</a>
+		</header>
+		
+		<a href="virtualtour.html">
+				<img src="project pictures/shm33.png" alt="Description of the image" id="previous">
+			</a>
+			
+			<a href="booking.html">
+				<img src="project pictures/shm-02.png" alt="Description of the image" id="next">
+			</a>
+	
+    <section>
+		<div class="container">
+			<div class="leftpart">
+				<h2>Jaffar Hotel</h2>
+				<p id="ps">
+					It is located ten kilometers from Siwa city center<br>and is ready to accommodate 30 guests. 
+
+				</p>
+				
+			<img src="pictures 2/jaffar hotel1.jpg" alt="jaffar hotel1" id="leftimage" />
+			</div>
+			<div class="rightpart">
+				<img src="pictures 2/jaffar hotel 2.jpg" alt="jaffar hotel2" id="rightimage" />
+			</div>
+			
+		</div>
+	
+    </section>
+</body>
+
+</html>
